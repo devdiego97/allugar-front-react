@@ -1,12 +1,15 @@
-import React from 'react'
-import { Route,Routes} from 'react-router-dom'
-import {navRoutes} from '../utils/navRoutes'
+import { Route} from "react-router-dom"
+import { Routes as Router} from "react-router-dom"
+import { INavLink,navLinks } from "../utils/navlink"
 
 
-export const Rotas=()=>{
-    return <Routes>
-        {
-           navRoutes.map(i=><Route path={i.path} Component={i.component} />)
-        }
-    </Routes>
+export const Routes=()=>{
+    return <Router>
+        return (
+    <>
+      {navLinks.map((i: INavLink) => (
+        <Route key={i.path} path={i.path} element={i.element!} />
+      ))}
+    </>
+    </Router>
 }

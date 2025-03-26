@@ -1,10 +1,12 @@
+
+import 'rsuite/dist/rsuite.min.css';
 import './App.css'
-import { Rotas } from './routes'
+import { Routes } from './routes'
+
+
 
 function App() {
- 
-
-  return  <Rotas />
+  return  <Routes />
 }
 
 export default App

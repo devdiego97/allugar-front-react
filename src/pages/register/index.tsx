@@ -1,6 +1,10 @@
+import { Layout } from "../../components/layout"
+
 
 export const Register=()=>{
-    return <div>
-      cadastro
-    </div>
+    return <Layout>
+        <div>
+           cadastro
+        </div>
+    </Layout>
 }

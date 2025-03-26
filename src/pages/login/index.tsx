@@ -1,6 +1,12 @@
 
+
+import { Layout } from "../../components/layout"
+
+
 export const Login=()=>{
-    return <div>
-       login
-    </div>
+    return <Layout>
+        <div>
+            login
+        </div>
+    </Layout>
 }

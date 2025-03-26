@@ -1,7 +1,10 @@
-import React from "react"
+import { Layout } from "../../components/layout"
+
 
 export const Home=()=>{
-    return <div className="bg-red-700">
-        home page
-    </div>
+    return <Layout>
+        <div>
+            home
+        </div>
+    </Layout>
 }

@@ -1,10 +1,10 @@
 import { Container } from "rsuite"
 import { Layout } from "../../components/layout"
 
-export const Brokers=()=>{
+export const BrokerId=()=>{
     return <Layout>
         <Container>
-            corretore 
+            corretores
         </Container>
     </Layout>
 }
